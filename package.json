@@ -1,0 +1,19 @@
+{
+  "name": "cryptowallet",
+  "version": "1.0.0",
+  "description": "The main goal of this project is to create a cryptowallet to interact with EVM Blockchains for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx --watch src/index.ts",
+    "compile": "npx tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
